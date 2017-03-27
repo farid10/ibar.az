@@ -743,7 +743,7 @@ font-family: 'Crimson Text', serif;
 	top: 0;
 	right: 0;
 	height: 100vh;
-	clip-path: polygon(60% 0, 100% 0, 100% 100%, 12% 100%);
+	-webkit-clip-path: polygon(60% 0, 100% 0, 100% 100%, 12% 100%);
 	transition: all .9s ease-in;
 }
 .hoqqa{

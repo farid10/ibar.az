@@ -1,0 +1,831 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	background: #1B3E85;
+	overflow: hidden;
+font-family: 'Crimson Text', serif;
+}
+
+.right{
+	float: right;
+}
+.left{
+	float: left;
+}
+.clear{
+	clear: both;
+}
+#main{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 1;
+	transition: all .5s ease-out;
+	background: #3058A7;
+	background-image: url(../images/glow.png) ;
+	
+}
+.header{
+	width: 100%;
+	padding: 40px 50px ;
+	position: fixed;
+
+}
+.logo{
+	width: 195px;
+    height: 45px;
+    background: url(../images/logo.svg) center center no-repeat;
+    margin: 0 30px 0 0;
+    float: left;
+}
+.firstUl{
+	list-style: none;
+}
+.firstUl li{
+	float: left;
+	 margin: 0 10px 0 0;
+	 margin-top: -15px;
+}
+.firstUl a{
+	color: #fff;
+    font-size: 1.6em;
+    padding: 5px 15px;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+    transition: all .5s ease-out;
+	display: block;
+	text-decoration: none;
+}
+.firstUl li:hover{
+	background: #6F8AC2;
+  border-radius: 5px;
+    transition: all .5s ease-out;
+    cursor: pointer;
+}
+.links{
+	    color: #fff;
+    text-decoration: underline;
+    margin: 0 25px 0 0;
+}
+.internetBank{
+	border: 2px solid rgba(255, 255, 255, .25);
+    border-radius: 90px;
+    padding: 10px 20px;
+    color: #fff;
+    margin: 0 0 0 20px;
+	text-decoration: none;
+    transition: all .3s ease-out;
+    margin-top: -10px;
+}
+.internetBank:hover{
+	background: #4C6FB3;
+}
+.rightSide{
+	margin-right: 100px;
+	margin-top: -5px;
+}
+.valyuta{
+	color: #FFF;
+	padding: 0 5px;
+	cursor: pointer;
+}
+
+.searchBox{
+	width: 600px;
+	height: 70px;
+	margin:0 auto;
+	position: relative;
+	margin-top: 80px;	
+}
+.searchBox input{
+	font-size: 2.6em;
+    display: block;
+    width: 100%;
+    padding: 20px 35px 20px 0;
+    border-bottom: 3px solid rgba(255, 255, 255, .25);
+    color: #fff;
+    background-size: 26px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    outline: none;
+
+}
+.searchBox span{
+	padding: 16px 0;
+	font-size: 2.6em;
+	position: absolute;
+	top: 10px;
+	color: white;
+	left: 	0px;
+	pointer-events: none;
+	    transition: all .2s ease-out;
+
+}
+.searchBotton{
+	background:url(../images/search.svg) center center no-repeat;
+	float: left;
+	width: 50px;
+	height: 50px;	
+	position: relative;
+	top: -60px;
+	left: 550px;
+}
+.content{
+	width: 600px;
+	height: 220px;
+	margin: 0 auto;	
+	margin-top: 40px;
+	position: relative;
+}
+.slider{
+	margin-top: 70px;
+	transition: all .9s  ease-in
+}
+.sliderPart{
+	width: 400px;
+	height: 200px;
+	overflow: hidden;
+	position: relative;
+
+	left: -50px;
+	cursor: pointer;	
+}
+.sliderPartIn{
+	width: 1200px;
+	position: relative;
+	right: 0;
+	transition: all .5s ease-out;
+
+}
+.sliderPart1{
+	width: 400px;
+	height: 185px;
+	overflow: hidden;
+	position: relative;
+	float: left;
+	border:1px solid;
+	border-color: transparent;
+	box-sizing: border-box;
+	border-radius: 10px
+}
+.sliderPart img{
+	width: 100%;
+	border: 1px solid;
+	border-color: transparent;
+	border-radius: 10px;
+	opacity: 0.5;
+		
+}
+.buttons1{
+	width: 10px;
+	height: 10px;
+	background: transparent;
+	border-radius: 100%;
+	position: relative;
+	top: 384px;
+	left: 360px;
+	border:1px solid white;
+		z-index: 2;
+		
+
+
+
+}
+.buttons2{
+	width: 10px;
+	height: 10px;
+	background: white;
+	border-radius: 100%;
+	position: relative;
+	top: 372px;
+	left: 375px;
+	border:1px solid white;
+	z-index: 2;
+	
+
+}
+.buttons3{
+	width: 10px;
+	height: 10px;
+	background: white;
+	border-radius: 100%;
+	position: relative;
+	top: 360px;
+	left: 390px;
+	border:1px solid white;
+		z-index: 2;
+
+}
+.payPart{
+	width: 185px;
+	height: 180px;
+	position: relative;
+	top: -200px;
+	left: 440px;
+	background: #6582BD;
+	border: 1px solid;
+	border-color: transparent;
+	border-radius: 10px;
+	opacity: 0.9;	
+		transition: all .5s ease-out;
+		cursor: pointer;
+
+}
+.payPart:hover{
+	transform: scale(1.04) ;
+	transition: all .5s ease-out
+}
+.payPart h3{
+	color: white;
+	position: relative;
+	top: -5px;
+	left: 20px;
+}
+.payPart a{
+	color: white;
+	font-size: 0.7em;
+	position: relative;
+	left: 20px;
+	top: 90px;
+}
+.sekil{
+	width: 80px;
+	height: 80px;
+	overflow: hidden;
+	position: relative;
+	left: 105px;
+	top: 24px;
+
+}
+.sekil img{
+	width: 100%;
+}
+.footer{
+	width: 100%;
+	height: 70px;
+	position: fixed;
+	bottom: 50px
+}
+.firstPart{
+	width: 550px;
+	height: 70px;
+}
+.secondPart{
+	width: 200px;
+	height: 70px;
+}
+.firstHead{
+	width: 100%;
+	height: 35px;
+}
+.firstFoot{
+	width: 100%;
+	height: 35px;
+}
+.footerInfo {
+	list-style:none;
+
+}
+.footerInfo li{
+	padding: 0 18px;
+	margin-top: 20px;
+}
+.footerInfo li a{
+	color: lightgray;
+	font-size: 0.9em;
+	text-decoration: underline;
+}
+.footerInfo li a:hover{
+	text-decoration: none;
+}
+.firstFoot p{
+	font-size: 0.9em;
+	color: lightgray;
+}
+.firstFoot a{
+	color: lightgray;
+
+
+}
+.firstFoot p:nth-child(1){
+	margin-left:55px;	
+	
+}
+.firstFoot p:nth-child(2){
+	margin-left:30px;	
+	
+}
+.secondPart{
+	width: 300px;
+	height: 70px;
+	margin-top: 20px;
+}
+.secondPart ul{
+	list-style: none;
+}
+.secondPart a{
+	width: 60px;
+	height: 48px;
+	padding: 0 5px;
+	background-size: contain;
+	opacity: 0.5;
+}
+.vq{
+	background: url(../images/vq.png) center center no-repeat;
+	float: left;
+}
+.adif{
+	background: url(../images/adif.png) center center no-repeat;
+	float: left;
+
+}
+.fimsa{
+	background: url(../images/fimsa.png) center center no-repeat;
+	float: left;
+}
+.thirdPart{
+	width: 300px;
+	height: 70px;
+	margin-top: 20px;
+	margin-left: 130px;
+}
+.thirdFirst{
+	width: 150px;
+	height: 35px;
+	
+}
+.thirdFirst a{
+	color: lightgray;
+	font-size: 0.9em;
+	margin-top: 10px;
+		text-decoration: underline;
+
+}
+.thirdFirst a:hover{
+	text-decoration: none;
+}
+.thirdFirst a:nth-child(2){
+	margin-left: 20px;
+}
+.thirdSecond{
+	width: 150px;
+	height: 35px;
+	
+}
+.thirdSecond ul{ 
+	list-style: none;
+	margin-left: -50px;
+	margin-top: -10px;
+	opacity: 0.5;
+}
+.thirdSecond ul li{
+	padding: 0 2px;
+}
+
+.facebook{
+		background: url(../images/facebook.png) center center no-repeat;
+	width: 18px;
+	height: 18px;
+	background-size: contain;
+	padding: 0 3px;
+}
+.instagram{
+		background: url(../images/instagram.png) center center no-repeat;
+	width: 18px;
+	height: 18px;
+	background-size: contain;
+	padding: 0 3px;
+}
+.twitter{
+		background: url(../images/twitter.png) center center no-repeat;
+	width: 18px;
+	height: 18px;
+	background-size: contain;
+	padding: 0 3px;
+}
+.youtube{
+		background: url(../images/youtube.svg) center center no-repeat;
+	width: 18px;
+	height: 18px;
+	background-size: contain;
+	padding: 0 3px;
+}
+.in{
+		background: url(../images/linkedin.png) center center no-repeat;
+	width: 18px;
+	height: 18px;
+	background-size: contain;
+	padding: 0 5px;
+}
+.call{
+	opacity: 0.5
+}
+.calL{
+	width: 57px;
+	height: 54px;
+	float: right;
+	background-size: contain;
+	background: url(../images/call.png) center center no-repeat;
+	margin-top: -70px;
+	margin-right: 90px
+}
+.example{
+	margin-left: -30px;
+	position: relative;
+	top: -5px;
+    left: -50px;
+    display: none;	
+}
+.example ul{
+	list-style: none;
+	
+
+}
+.example li{
+	padding: 3px 5px;
+	background: #6B87C0;
+	float: left;
+	border: 1px solid;
+	border-color: transparent;
+	border-radius: 10px;
+	color: white;
+	font-size: 0.8em;
+	margin-right: 10px;
+}
+.example li:nth-child(1){
+	background: transparent;
+}
+.bizimleElaqe{
+	height: 100%;
+	width: 360px;
+	background: url(../images/contact_side.jpg);
+	position: fixed;
+	right: -360px;
+	transition: all .5s ease-out;
+	overflow: hidden;
+	z-index: 3;
+	background-size: 100%;
+}
+.exit{
+	width: 75px;
+	height: 75px;
+	background: url(../images/close.svg) center center no-repeat;
+	background-size: 20px;
+	transition: all .5s ease-out
+
+}
+.exit:hover{
+
+	transform: rotate(90deg);
+	transition: all .5s ease-out
+}
+.contactUs{
+	width: 360px;
+	height: 75px;
+	border-bottom: 1px solid lightgray;
+
+}
+.contact {
+	list-style: none
+}
+.contact a{
+
+	padding: 13px 35px;
+	
+	color: white;
+	font-size: 1.4em;
+	text-decoration: none
+
+}
+.contact li{
+	margin-left: -40px;
+	width: 360px;
+	line-height: 53px;
+	height: 53px;
+}
+.contact li:hover{
+	background: rgba(255, 255, 255, 0.1);
+	transition: all .5s ease-out
+}
+
+.bizimleElaqe h2{
+	color: white;
+	margin-left: 30px;	
+}
+.zoomOut{
+	transform: scale(.9) translate(-2%, 0);
+}
+.menu{
+	width: 0px;
+    height: 40px;
+    position: absolute;
+    top: 20px;
+    left: 592px;
+    list-style: none;
+}
+.xett1{
+	    width: 30px;
+    height: 1px;
+    position: relative;
+    left: -20px;
+    top: 10px;
+    background: lightgray;
+    margin: 0 0 0 -15px;
+  
+}
+.xett2{
+	    width: 30px;
+    height: 1px;
+    position: relative;
+    left: -20px;
+    top: 17px;
+    background: lightgray;
+    margin: 0 0 0 -15px;
+  
+}
+.xett3{
+	    width: 30px;
+    height: 1px;
+    position: relative;
+    left: -20px;
+    top: 24px;
+    background: lightgray;
+    margin: 0 0 0 -15px;
+  
+}
+.iso{
+	width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, .2);
+    z-index: 2;
+    position:fixed;
+    display: none;
+}
+.bankOnline{
+	height: 100%;
+	width: 360px;
+	background: url(../images/online_b_side.jpg);
+	position: fixed;
+	right: -360px;
+	transition: all .5s ease-out;
+	overflow: hidden;
+	z-index: 3;
+	background-size: 100%;
+}
+.bankOnline h2{
+	color: white;
+	margin-left: 30px;	
+}
+.internetBank1{
+	height: 100%;
+	width: 360px;
+	background: url(../images/online_b_side.jpg);
+	position: fixed;
+	right: -360px;
+	transition: all .5s ease-out;
+	overflow: hidden;
+	z-index: 3;
+	background-size: 100%;
+}
+.internetBank1 h2{
+	color: white;
+	margin-left: 30px;	
+}
+#menuPart{
+	width: 750px;
+	height: 100%;
+	background: url(../images/all_site.jpg) bottom right  no-repeat;
+	background-size: cover;
+	position: fixed;
+	right: -750px;
+	z-index: 3;
+	overflow: hidden;
+	transition: all .5s ease-out
+}
+.menuSlide{
+	width: 1500px;
+	height: 100%;
+	position: relative;
+	right: 0px;
+	display: flex;
+	transition: all .5s ease-out
+}
+.menuSlide1{
+	width: 750px;
+	height: 100%;
+
+}
+#menuPart .header1{
+	width: 750px;
+	height: 69px;
+    border-bottom: 2px solid rgba(255, 255, 255, .1);
+}
+.header1 ul{
+	list-style: none;
+}
+.header1 li{
+	width: 130px;
+    height: 52px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+.header1 li:hover{
+	border-bottom: 3px solid white;
+}
+.mySecond {
+	color: #fff;
+    font-size: 1.6em;
+    padding: 21px 10px 22px;
+    text-decoration: none;
+    
+}
+.myFirst a{
+	margin-left: 25px;
+	color: #fff;
+    font-size: 1.6em;
+    padding: 21px 10px 22px;
+    text-decoration: none;
+}
+.myInput{
+	    width: 750px;
+    
+    margin: 0 0 30px;
+}
+#menuPart input{
+	font-size: 1.8em;
+	margin-left: 45px;
+    display: block;
+    width: 84%;
+    padding: 15px 35px 15px 0;
+    color: #fff;
+    background-color: transparent;
+    background-size: 26px;
+    outline: none;
+     border:none;
+    border-bottom: 2px solid rgba(255, 255, 255, .1);   
+}
+.exitMenu{
+	width: 75px;
+	height: 75px;
+	background: url(../images/close.svg) center center no-repeat;
+	background-size: 20px;
+	transition: all .5s ease-out;
+	position: relative;
+	float: right;
+    right: 25px;
+    top: -75px;
+
+}
+.exitMenu:hover{
+
+	transform: rotate(90deg);
+	transition: all .5s ease-out
+}
+.searchBotton1{
+	background:url(../images/search.svg) center center no-repeat;
+	float: left;
+	width: 50px;
+	height: 50px;	
+	position: relative;
+	top: -60px;
+	right: -40px;
+    float: right;
+}
+.row{
+	margin-top: 30px;
+}
+.row div{
+	margin-left: 70px;
+}
+.row a{
+	color: white;
+	text-decoration: none;
+}
+.row a:hover{
+	text-decoration: underline;
+}
+.row a:nth-child(1){
+	font-size: 1.5em;
+}
+.deyis1{
+	position: relative;
+	right: 20px
+}
+.deyis2{
+	position: relative;
+	right: 20px
+}
+.deyis3{
+	position: relative;
+	right: -20px
+}
+.deyis4{
+	position: relative;
+	right: 50px
+}
+.deyis5{
+	position: relative;
+	right: -20px
+}
+.menuSlider{
+	width: 750px;
+	height: 100%;
+	float: right;
+}
+.menuSlider .row {
+	margin-top: 20px;
+}
+.mySekil{
+	width: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100vh;
+	clip-path: polygon(60% 0, 100% 0, 100% 100%, 12% 100%);
+	transition: all .9s ease-in;
+}
+.hoqqa{
+	height:200vh;
+	width: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+		transition: all .9s ease-in;
+
+	
+}
+.hoqqa1{
+	height: 100vh;
+	width: 100%;
+	background: url(../images/ferdi.jpg) no-repeat right center;
+	background-size: cover;
+	opacity: 0.5
+	
+}
+.hoqqa2{
+	height: 100vh;
+	width: 100%;
+	background: url(../images/businessman-1.jpg) no-repeat right center;
+	background-size: cover;	
+		opacity: 0.5
+
+	
+}
+.clip{
+	position: absolute;
+	top: 190px;
+	left: 60px;
+	opacity: 0;
+		transition: all .9s ease-out
+
+}
+.clip li{
+	margin-top: 15px;
+	margin-right: 30px;
+}
+.clip ul{
+	list-style: none;
+	margin-left: -40px
+}
+.clip h1{
+	color: white;
+	font-size: 2.8em;
+}
+.clip a{
+	text-decoration: none;
+	color: white;
+	font-size: 1.5em;
+}
+
+.clip a:hover{
+	text-decoration: underline;
+}
+.path{
+	position: absolute;
+	top: 190px;
+	left: 60px;
+	opacity: 0;
+	transition: all .9s ease-out
+}
+.path li{
+	margin-top: 15px;
+	margin-right: 30px;
+}
+.path ul{
+	list-style: none;
+	margin-left: -40px
+}
+.path h1{
+	color: white;
+	font-size: 2.8em;
+}
+.path a{
+	text-decoration: none;
+	color: white;
+	font-size: 1.5em;
+}
+.path a:hover{
+	text-decoration: underline;
+}
